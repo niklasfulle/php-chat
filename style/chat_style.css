@@ -1,0 +1,525 @@
+@charset "utf-8";
+
+/*
+  Hier werden alle CSS-Eigenschaften der Chats gespeichert
+*/
+img#Smile{
+  margin-top: -0.15rem;
+  width: 2rem;
+  height: 2rem;
+}
+img#Smile1{
+  width: 2rem;
+  height: 2rem;
+}
+p#Smile{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+/*** Alle CSS-Eigenschaften werden beim Normalen Chat für alle Benutzer eingesetzt ***/
+div#chatframe{
+  position: ;
+  width: 111rem;
+  min-height: 2rem;
+  max-height: 10rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+}
+
+a#chatframenamefinalBenutzername1{
+  font-size: 1.7rem;
+  color: blue;
+  margin-left: 0.6rem;
+  height: 100%;
+  cursor: pointer;
+}
+a#chatframenamefinalBenutzername2{
+  font-size: 1.7rem;
+  color: red;
+  margin-left: 0.6rem;
+  height: 100%;
+  cursor: pointer;
+}
+a#chatframenamefinalBenutzername12{
+  color: blue;
+  position: absolute;
+  margin-left: 8rem;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+a#chatframenamefinalBenutzername22{
+  color: red;
+  position: absolute;
+  margin-left: 8rem;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+a#chatframenamefinalVorname{
+  position: absolute;
+  margin-left: 8rem;
+  margin-top: 0rem;
+  font-size: 1.5rem;
+}
+a#chatframenamefinalNachname{
+  position: absolute;
+  margin-left: 8rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+a#chatframenamefinalCurrentIPa{
+  position: absolute;
+  margin-left: 8rem;
+  font-size: 1.5rem;
+  margin-top: 6rem;
+}
+a#chatframenamefinalCurrentIPb{
+  position: absolute;
+  margin-left: 8rem;
+  font-size: 1.5rem;
+  margin-top: 8rem;
+}
+div#chattextframename{
+  width: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  position: absolute;
+  padding-top: 0.3rem;
+}
+div#chattextframetext{
+  padding-top: 0.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-left-color: black;
+  border-left-style: dotted;
+  border-left-width: 0.1rem;
+  border-right-color: black;
+  border-right-style: dotted;
+  border-right-width: 0.1rem;
+  margin-left: 16rem;
+  min-height: 2rem;
+  max-height: 10rem;
+  width: 85rem;
+}
+div#chattextframeoption{
+  margin-left: 96.3rem;
+  width: 15rem;
+  min-height: 2rem;
+  max-height: 10rem;
+  position: absolute;
+  margin-top: -1.5rem;
+}
+div#chattextframeoptionnachrichtennr{
+  height: 100%;
+  width: 4.5rem;
+  margin-right: 1.2rem;
+  margin-top: -0.7rem;
+  float: right;
+}
+a#chattextframeoptionnachrichtennr{
+  margin-left: 0.3rem;
+  float: right;
+  font-size: 2rem;
+  position: relative;
+}
+a#chatNachricht{
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: -2rem;
+  position: relative;
+}
+a#chatNachrichtlink{
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: -2rem;
+  position: relative;
+  color: gray;
+  text-decoration: none;
+}
+a#chatNachricht1{
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: -2rem;
+  position: relative;
+}
+img#chatframenamefinalAdminBild{
+  height: 1.6rem;
+  width: 1.6rem;
+  position: absolute;
+  margin-left: 14rem;
+}
+input#chattextframeoptiondeletNachricht{
+  height: 1.6rem;
+  width: 1.6rem;
+  position: absolute;
+  margin-left: 6rem;
+  margin-top: -0.3rem;
+}
+p#Admin{
+  margin-left: 0.7rem;
+  font-size: 1.5rem;
+  margin-top: -0.3rem;
+  position: absolute;
+}
+p#Admin1{
+  margin-left: 0.2rem;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+  min-width: 2rem;
+  max-width: 20rem;
+}
+div#Admin{
+  position: absolute;
+}
+input#chatoptionenoption1:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#chatoptionenoption2:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+img#chatframenameProfilBild{
+  position: absolute;
+  width: 7rem;
+  height: 9rem;
+}
+/********/
+
+
+/*** Alle CSS-Eigenschaften werden für die Privat Chats eingesetzt ***/
+div#PrivatChatFrame2ungelesen{
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  padding-bottom: 0.3rem;
+  position: ;
+  width: 20rem;
+  min-height: 2rem;
+  max-height: 50rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  margin-right: 0.7rem;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+  background-color: #B0F3B0;
+  float: right;
+}
+div#PrivatChatFrame2gelesen{
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  padding-bottom: 0.3rem;
+  position: ;
+  width: 20rem;
+  min-height: 2rem;
+  max-height: 50rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  margin-right: 0.7rem;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+  background-color: #66FF66;
+  float: right;
+}
+a#privatchatNachricht{
+  font-size: 1.5rem;
+}
+a#privatchatNachricht1{
+  font-size: 1.5rem;
+}
+div#PrivatChatFrame1{
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  padding-bottom: 0.3rem;
+  position: ;
+  width: 20rem;
+  min-height: 2rem;
+  max-height: 50rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+  background-color: white;
+  float: left;
+}
+div#PrivatChatFrame{
+  padding-top: 0.2rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-bottom: 0.3rem;
+  position: ;
+  width: 22rem;
+  min-height: 2rem;
+  max-height: 50rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  margin-left: 1rem;
+  margin-right: 0.7rem;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+div.PrivatChat{
+  border-style: solid;
+  border-color: black;
+  border-width: 0.2rem;
+  height: 34.6rem;
+  width: 27.5rem;
+  position: absolute;
+  background-color: lightgray;
+}
+div#PrivatChat1{
+}
+div#PrivatChat2{
+}
+div#PrivatChat3{
+}
+div#PrivatChat4{
+
+}
+div#PrivatChathedder{
+  width: 27.5rem;
+  height: 3rem;
+  border-bottom-color: black;
+  border-bottom-style: groove;
+  border-bottom-width: 0.2rem;
+  background-color: gray;
+  position: absolute;
+}
+a#PrivatChathedderName{
+  font-size: 2.7rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+input#chatbeenden{
+  background-color: gray;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: red;
+  border: none;
+  height: 2.8rem;
+  width: 2.8rem;
+  float: right;
+  margin-top: -3rem;
+  margin-right: 0.1rem;
+}
+input#chatbeenden:hover{
+  transition: 1s;
+  cursor: pointer;
+  color: darkred;
+}
+div#chatbeenden{
+  height: 2.8rem;
+  width: 2.8rem;
+  float: right;
+}
+a#chatbeenden{
+  text-decoration: none;
+  color: red;
+  font-size: 2.6rem;
+}
+div#PrivatChatMain{
+  margin-top: 3.2rem;
+  height: 26.7rem;
+  width: 27.5rem;
+  position: absolute;
+}
+div#PrivatChatMainChat1{
+  height: 26.1rem;
+  width: 26.9rem;
+  margin: 0.3rem;
+  background-color: white;
+  overflow-y: scroll;
+}
+div#PrivatChatMainChat2{
+  height: 26.1rem;
+  width: 26.9rem;
+  margin: 0.3rem;
+  background-color: white;
+  overflow-y: scroll;
+}
+div#PrivatChatMainChat3{
+  height: 26.1rem;
+  width: 26.9rem;
+  margin: 0.3rem;
+  background-color: white;
+  overflow-y: scroll;
+}
+div#PrivatChatMainChat4{
+  height: 26.1rem;
+  width: 26.9rem;
+  margin: 0.3rem;
+  background-color: white;
+  overflow-y: scroll;
+}
+div#PrivatChatBottom{
+  height: 4.5rem;
+  width: 27.5rem;
+  margin-top: 29.9rem;
+  border-top-color: black;
+  border-top-style: groove;
+  border-top-width: 0.2rem;
+  position: absolute;
+}
+textarea#PrivatChatBottomtextarea1{
+  position: absolute;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  border: none;
+  font-size: 1.5rem;
+  resize: none;
+  overflow: auto;
+  width: 19.5rem;
+  height: 4.5rem;
+}
+input#PrivatChatBottom1input{
+  width: 8rem;
+  height: 4.5rem;
+  position: absolute;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border: none;
+  font-size: 2rem;
+  margin-left: 19.5rem;
+}
+input#PrivatChatBottom1input:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+textarea#PrivatChatBottom2{
+  position: absolute;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  border: none;
+  font-size: 1.5rem;
+  resize: none;
+  overflow: auto;
+  width: 19.5rem;
+  height: 4.5rem;
+}
+input#PrivatChatBottom2input{
+  width: 8rem;
+  height: 4.5rem;
+  position: absolute;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border: none;
+  font-size: 2rem;
+  margin-left: 19.5rem;
+}
+input#PrivatChatBottom2input:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+textarea#PrivatChatBottom3{
+  position: absolute;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  border: none;
+  font-size: 1.5rem;
+  resize: none;
+  overflow: auto;
+  width: 19.5rem;
+  height: 4.5rem;
+}
+input#PrivatChatBottom3input{
+  width: 8rem;
+  height: 4.5rem;
+  position: absolute;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border: none;
+  font-size: 2rem;
+  margin-left: 19.5rem;
+}
+input#PrivatChatBottom3input:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+textarea#PrivatChatBottom4{
+  position: absolute;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  border: none;
+  font-size: 1.5rem;
+  resize: none;
+  overflow: auto;
+  width: 19.5rem;
+  height: 4.5rem;
+}
+input#PrivatChatBottom4input{
+  width: 8rem;
+  height: 4.5rem;
+  position: absolute;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border: none;
+  font-size: 2rem;
+  margin-left: 19.5rem;
+}
+input#PrivatChatBottom4input:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div.style-1::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 4rem;
+	background-color: lightgray;
+}
+div.style-1::-webkit-scrollbar{
+	width: 0.5rem;
+	background-color: lightgray;
+}
+div.style-1::-webkit-scrollbar-thumb{
+  border: 0.02rem solid #696969;
+	border-radius: 4rem;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #A9A9A9;
+}
+div.style-1::-webkit-scrollbar-thumb:hover{
+  background-color: #696969;
+  cursor: pointer;
+	transition: 0.5s;
+}
+div.style-2::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 4rem;
+	background-color: lightgray;
+}
+div.style-2::-webkit-scrollbar{
+	width: 0.5rem;
+	background-color: lightgray;
+}
+div.style-2::-webkit-scrollbar-thumb{
+  border: 0.02rem solid #696969;
+	border-radius: 4rem;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #A9A9A9;
+}
+div.style-2::-webkit-scrollbar-thumb:hover{
+  background-color: #696969;
+  cursor: pointer;
+	transition: 0.5s;
+}
+/********/

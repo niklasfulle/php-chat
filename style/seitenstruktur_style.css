@@ -1,0 +1,2975 @@
+@charset "utf-8";
+
+/*
+  Hier werden alle CSS-Eigenschaften der Seiten gespeichert
+*/
+input#Bugreport{
+  background-color: red;
+  position: absolute;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 1.6rem;
+  border: none;
+  width: 12rem;
+  margin-left: 178.5rem;
+}
+input#Bugreport:hover{
+  cursor: pointer;
+  background-color: DarkRed;
+  color: white;
+}
+div#Bugreportbackround{
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  opacity: 0.9;
+  position: absolute;
+  background-color: lightgray;
+}
+div#BugreportMain{
+  position: absolute;
+  opacity: 1;
+  margin-left: 35%;
+  margin-top: 10rem;
+  width: 30%;
+  height: 67rem;
+  background-color: white;
+  z-index: 1001;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  box-shadow: 0rem 0rem 7rem 0.7rem gray;
+}
+h1#BugreportMain{
+  font-size: 2.3rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+input#Bugreportclose{
+  float: right;
+  color: red;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+}
+input#Bugreportclose:hover{
+  cursor: pointer;
+}
+table#Bugreport{
+  width: 80%;
+  margin-top: 4rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+tr#Bugreport{
+  width: 100%;
+  height: 2.5rem;
+}
+td#Bugreport{
+  font-size: 2rem;
+
+}
+input#Bugreport1{
+  height: 2.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+}
+select#Bugreport2{
+  height: 2.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+}
+option#Bugreport2{
+  height: 2.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+}
+input#Bugreport3{
+  height: 2.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+}
+textarea#Bugreport4{
+  height: 35rem;
+  width: 100%;
+  font-size: 1.8rem;
+  resize: none;
+}
+input#Bugreport5{
+  height: 2.5rem;
+  width: 10rem;
+  font-size: 1.6rem;
+  float: right;
+  font-weight: bold;
+}
+input#Bugreport5:hover{
+  background-color: gray;
+  border-color: lightgray;
+  color: white;
+}
+a#BugreportInfo{
+  height: 2.5rem;
+  font-size: 2rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Admin.php benutzt ***/
+input#ProfilBackButton1{
+  background-color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  height: 1.6rem;
+  border: none;
+  width: 8rem;
+  margin-left: 1rem;
+}
+input#ProfilBackButton1:hover{
+  cursor: pointer;
+}
+div#AdminMain{
+  background-color: white;
+  width: 98.7%;
+  height: 93.3rem;
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+  overflow: hidden;
+}
+div#AdminSeite{
+  height: 4rem;
+  width: 100%;
+  background-color: black;
+  margin-top: 1rem;
+}
+input#AdminSeite1{
+  background-color: lightgray;
+  height: 4rem;
+  width: 16.66666666666667%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+}
+input#AdminSeite2{
+  background-color: lightgray;
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 16.66666666666667%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+}
+input#AdminSeite3{
+  background-color: lightgray;
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 33.33333333333333%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+}
+input#AdminSeite4{
+  background-color: lightgray;
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 50%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+}
+@keyframes example1 {
+  0%   {background-color: lightgreen;}
+  10%   {background-color: green; color: white;}
+  25%  {background-color: green; color: white;}
+  50%  {background-color: green; color: white;}
+  100% {background-color: lightgreen;}
+}
+a#newbugreportscountadmin{
+  position: absolute;
+  z-index: 200;
+  font-size: 2.3rem;
+  margin-left: 184rem;
+  margin-top: 0.7rem;
+  background-color: lightgreen;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border-radius: 1rem;
+  text-decoration: blink;
+  animation-name: example1;
+  animation-duration: 0.7s;
+}
+input#AdminSeite5{
+  background-color: lightgray;
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 66.66666666666667%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+}
+input#AdminSeite6{
+  background-color: lightgray;
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 83.33333333333333%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+}
+input#AdminSeite1:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#AdminSeite2:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#AdminSeite3:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#AdminSeite4:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#AdminSeite5:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#AdminSeite6:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#AdminSeite12{
+  height: 4rem;
+  width: 16.66666666666667%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+input#AdminSeite22{
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 16.66666666666667%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+input#AdminSeite32{
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 33.33333333333333%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+input#AdminSeite42{
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 50%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+input#AdminSeite52{
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 66.66666666666667%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+input#AdminSeite62{
+  height: 4rem;
+  width: 16.66666666666667%;
+  margin-left: 83.33333333333333%;
+  position: absolute;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+input#AdminSeite12:hover{
+  cursor: pointer;
+}
+input#AdminSeite22:hover{
+  cursor: pointer;
+}
+input#AdminSeite32:hover{
+  cursor: pointer;
+}
+input#AdminSeite42:hover{
+  cursor: pointer;
+}
+input#AdminSeite52:hover{
+  cursor: pointer;
+}
+input#AdminSeite62:hover{
+  cursor: pointer;
+}
+div#AdminMainFrame{
+  width: 100%;
+  height: 83rem;
+  position: absolute;
+  margin-top: 4rem;
+}
+div#AdminMainFrameleft{
+  width: 50%;
+  height: 83rem;
+  position: absolute;
+}
+div#AdminMainFrameleftfunc{
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: black;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 96%;
+  height: 96%;
+}
+h1#AdminMainFrameleftfunch1{
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 0.3rem;
+}
+div#AdminMainFrame1{
+  width: 100%;
+  height: 83rem;
+  position: absolute;
+}
+div#AdminMainFrame1func{
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: black;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 97.8%;
+  height: 96%;
+}
+h1#AdminMainFrame1funch1{
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 0.3rem;
+}
+div#AdminMainFrameleftfunction{
+  margin-top: 0.2rem;;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 0.2rem;
+  width: 100%;
+  height: 74.3rem;
+}
+div#AdminMainFrame1function{
+  margin-top: 0.2rem;;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 0.2rem;
+  width: 100%;
+  height: 74.3rem;
+}
+div#AdminMainFrameleftfunctionUserlistefunc{
+  width: 100%;
+}
+table#BenutzernameUserlisteNamen{
+  width: 100%;
+  margin-top: -0.2rem;
+}
+select#BenutzernameUserlisteNamen1{
+  height: 3rem;
+  width: 100%;
+  font-size: 1.7rem;
+  margin-left: -0.2rem;
+  border: none;
+}
+option#BenutzernameUserlisteNamen1{
+  height: 3rem;
+  font-size: 1.7rem;
+}
+input#BenutzernameUserlisteNamen2{
+  font-weight: bold;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.5rem;
+  border: none;
+  margin-left: -0.4rem;
+}
+input#BenutzernameUserlisteNamen3{
+  font-weight: bold;
+  border: none;
+  width: 107%;
+  height: 3rem;
+  font-size: 1.5rem;
+  margin-left: -0.6rem;
+}
+input#BenutzernameUserlisteNamen2:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#BenutzernameUserlisteNamen3:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div#AdminMainFrameleftfunctionUserliste{
+  width: 100%;
+  height: 71.3rem;
+  background-color: white;
+}
+div#AdminMainFrameright{
+  width: 50%;
+  height: 83rem;
+  margin-left: 50%;
+  position: absolute;
+}
+div#AdminMainFramerightfunc{
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: black;
+  margin-left: 1.6%;
+  margin-top: 2%;
+  width: 96%;
+  height: 96%;
+}
+h1#AdminMainFramerightfunch1{
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 0.3rem;
+}
+div#AdminMainFramerightfunction{
+  margin-top: 0.2rem;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 0.2rem;
+  width: 100%;
+  height: 74.3rem;
+}
+div#profilMain12{
+  margin-left: 50.1%;
+  background-color: white;
+  width: 49.9%;
+  height: 95.7rem;
+  position: absolute;
+}
+div#AdminMain1{
+  width: 100%;
+  height: 100%;
+}
+div#AdminMainleft{
+  float: left;
+  width: 50%;
+  height: 48%;
+}
+div#AdminMainright{
+  float: right;
+  width: 50%;
+  height: 48%;
+}
+div#AdminMainleft2{
+  margin-top: 0.5rem;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+div#AdminMainright2{
+  margin-top: 0.5rem;
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+div#UserlisteMain{
+  margin-top: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 78rem;
+  border-style: solid;
+  border-width: 0.2rem;
+}
+div#UserlisteFunktionen{
+  height: 8rem;
+  background-color:;
+}
+h1#AdminMain13{
+  font-size: 3rem;
+  text-align: center;
+}
+div#Userliste{
+  height: 70rem;
+  background-color: white;
+}
+div#AdminMainrightfunktionen{
+  margin-top: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 78rem;
+  border-style: solid;
+  border-width: 0.2rem;
+}
+div#AdminMainrightfunktion1{
+  height: 10rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+  background-color:;
+}
+div#Filterauflistung{
+  width: 41rem;
+  height: 74.3rem;
+  border-right-color: black;
+  border-right-style: solid;
+  border-right-width: 0.2rem;
+  position: absolute;
+}
+div#Filterauflistung1{
+  width: 41rem;
+  height: 74.2rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+}
+/*input#Filterhinzufügentext{
+  width: 27rem;
+  height: 3rem;
+  font-size: 1.7rem;
+  position: absolute;
+}
+input#Filterhinzufügensubmit{
+  font-weight: bold;
+  margin-left: 27rem;
+  width: 14rem;
+  height: 3rem;
+  border: none;
+  font-size: 1.5rem;
+  position: absolute;
+}
+input#Filterhinzufügensubmit:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}*/
+div#Filterhinzufügen{
+  height: 10rem;
+  width: 50.2rem;
+  position: absolute;
+  margin-left: 41.2rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#Filterdeaktivieren{
+  height: 10rem;
+  width: 50.2rem;
+  margin-top: 10.2rem;
+  position: absolute;
+  margin-left: 41.2rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#chatlöschen{
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#privatchatlöschen{
+  margin-top: 10.2rem;
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#User1{
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#User2{
+  margin-top: 10.2rem;
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#User3{
+  margin-top: 20.4rem;
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#User4{
+  margin-top: 30.6rem;
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#User5{
+  margin-top: 40.8rem;
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#Smilehinzufügen{
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#Smiledeaktivieren{
+  margin-top: 10.2rem;
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#Smilelöschen{
+  margin-top: 20.4rem;
+  height: 10rem;
+  width: 51.2rem;
+  position: absolute;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#Filterlöschen{
+  height: 10rem;
+  width: 50.2rem;
+  position: absolute;
+  margin-left: 41.2rem;
+  margin-top: 20.4rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#Filterhochladen{
+  height: 10rem;
+  width: 50.2rem;
+  position: absolute;
+  margin-left: 41.2rem;
+  margin-top: 30.6rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+select#Filterdeaktivieren{
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  margin-left: 1.1rem;
+  position: absolute;
+  width: 20rem;
+  height: 2rem;
+}
+option#Filterdeaktivieren{
+  font-size: 1.7rem;
+  position: absolute;
+  width: 20rem;
+  height: 2rem;
+}
+input#Filterdeaktivieren{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 21.1rem;
+  position: absolute;
+  height: 2rem;
+  width: 14.5rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Filterdeaktivieren:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Filteraktivieren{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 35.6rem;
+  position: absolute;
+  height: 2rem;
+  width: 13.3rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Filteraktivieren:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+select#Smiledeaktivieren{
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  margin-left: 9.1rem;
+  position: absolute;
+  width: 10rem;
+  height: 2rem;
+}
+option#Smiledeaktivieren{
+  font-size: 1.7rem;
+  position: absolute;
+  width: 10rem;
+  height: 2rem;
+}
+input#Smiledeaktivieren{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 19.1rem;
+  position: absolute;
+  height: 2rem;
+  width: 14.5rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Smiledeaktivieren:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Smileaktivieren{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 33.6rem;
+  position: absolute;
+  height: 2rem;
+  width: 12.3rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Smileaktivieren:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+select#Filterlöschen{
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  margin-left: 7.1rem;
+  position: absolute;
+  width: 20rem;
+  height: 2rem;
+}
+option#Filterlöschen{
+  font-size: 1.7rem;
+  position: absolute;
+  width: 20rem;
+  height: 2rem;
+}
+input#Filterlöschen{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 27.1rem;
+  position: absolute;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Filterlöschen:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+select#Filterlöschen1{
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  margin-left: 4.1rem;
+  position: absolute;
+  width: 20rem;
+  height: 2rem;
+}
+input#Filterlöschen1{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 24.1rem;
+  position: absolute;
+  height: 2rem;
+  width: 22rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Filterlöschen1:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Filterhinzufügen{
+  margin-top: 3rem;
+  margin-left: 9.1rem;
+  position: absolute;
+  height: 2rem;
+  width: 15rem;
+  font-size: 1.5rem;
+}
+
+input#Filterhinzufügen1{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 24.1rem;
+  position: absolute;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Filterhinzufügen1:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+select#Smilelöschen{
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  margin-left: 13.1rem;
+  position: absolute;
+  width: 10rem;
+  height: 2rem;
+}
+option#Smilelöschen{
+  font-size: 1.7rem;
+  position: absolute;
+  width: 10rem;
+  height: 2rem;
+}
+input#Smilelöschen{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 23.1rem;
+  position: absolute;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Smilelöschen:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Filterhochladen{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 1.8rem;
+  position: absolute;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input#Filterhochladen:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+  margin-left: 11.8rem;
+  margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: red;
+}
+.inputfile1 {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile1 + label {
+  margin-left: 17.8rem;
+  margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+
+.inputfile1:focus + label,
+.inputfile1 + label:hover {
+    color: red;
+}
+input#SmileName{
+  margin-left: 7rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  width: 10rem;
+  position: absolute;
+}
+input#file1{
+  margin-left:rem;
+  margin-top: 0.2rem;
+}div#AdminMainFrameleftfunctionchatUser{
+  width: 40rem;
+  height: 74.2rem;
+  border-right-style: solid;
+  border-right-width: 0.2rem;
+  border-right-color: black;
+  position: absolute;
+}
+div#AdminMainFrameleftfunctionchatSpiele{
+  width: 40rem;
+  height: 74.2rem;
+  border-right-style: solid;
+  border-right-width: 0.2rem;
+  border-right-color: black;
+  position: absolute;
+}
+div#AdminMainFrameleftfunctionchatStatistiken{
+  width: 40rem;
+  height: 74.2rem;
+  border-right-style: solid;
+  border-right-width: 0.2rem;
+  border-right-color: black;
+  position: absolute;
+}
+h2#AdminMainFrameleftfunctionchatStatistikenh2{
+  text-align: center;
+  font-size: 2.4rem;
+}
+div#AdminMainFrameleftfunctionchatFunktionen{
+  margin-left: 40.2rem;
+  width: 51rem;
+  height: 74.2rem;
+}
+div#AdminMainFramerightfunctionchatSmile{
+  width: 40rem;
+  height: 74.2rem;
+  border-right-style: solid;
+  border-right-width: 0.2rem;
+  border-right-color: black;
+  position: absolute;
+}
+h2#AdminMainFramerightfunctionSmileh2{
+  text-align: center;
+  font-size: 2.4rem;
+}
+div#AdminMainFramerightfunctionSmileFunktionen{
+  margin-left: 40.2rem;
+  width: 51rem;
+  height: 74.2rem;
+}
+div#AdminFilterERRORDiv{
+  height: 4rem;
+  width: 46.5rem;
+  margin-top: -5.8rem;
+  margin-left: 35.9rem;
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+div#AdminFilterERRORDiv1{
+  position: absolute;
+  margin-left: 0.3rem;
+  margin-top: -2.3rem;
+}
+/*div#AdminFilterERRORDiv1{
+  height: 4rem;
+  width: 46.5rem;
+  margin-top: -73.8rem;
+  margin-left: 40.9rem;
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}*/
+a#AdminFilterERRORa{
+  font-size: 1.8rem;
+  color: black;
+  margin-top: -0.2rem;
+  margin-left: 0.4rem;
+}
+img#SmileAuflistung{
+  height: 2rem;
+  width: 2rem;
+}
+table#AdminMainFrameleftfunctionchatStatistikentable{
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 3rem;
+}
+tr#AdminMainFrameleftfunctionchatStatistikentr1{
+
+}
+td#AdminMainFrameleftfunctionchatStatistikentd11{
+  font-size: 2rem;
+  position: absolute;
+  height: 2.5rem;
+  text-decoration: underline;
+}
+tr#AdminMainFrameleftfunctionchatStatistikentr2{
+
+}
+td#AdminMainFrameleftfunctionchatStatistikentd21{
+  font-size: 1.5rem;
+  width: 35%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 2.8rem;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd22{
+  font-size: 1.5rem;
+  width: 15%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 2.8rem;
+  margin-left: 35%;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd23{
+  font-size: 1.5rem;
+  width: 35%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 2.8rem;
+  margin-left: 50%;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd24{
+  font-size: 1.5rem;
+  width: 15%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 2.8rem;
+  margin-left: 85%;
+}
+tr#AdminMainFrameleftfunctionchatStatistikentr3{
+
+}
+td#AdminMainFrameleftfunctionchatStatistikentd31{
+  font-size: 2rem;
+  position: absolute;
+  height: 2.5rem;
+  text-decoration: underline;
+  margin-top: 5.3rem;
+}
+tr#AdminMainFrameleftfunctionchatStatistikentr4{
+
+}
+td#AdminMainFrameleftfunctionchatStatistikentd41{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 8.1rem;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd42{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 8.1rem;
+  margin-left: 25%;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd43{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 8.1rem;
+  margin-left: 50%;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd44{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 8.1rem;
+  margin-left: 75%;
+}
+tr#AdminMainFrameleftfunctionchatStatistikentr5{
+
+}
+td#AdminMainFrameleftfunctionchatStatistikentd51{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 10.1rem;
+  text-align: left;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd52{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 10.1rem;
+  margin-left: 25%;
+  text-align: left;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd53{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 10.1rem;
+  margin-left: 50%;
+  text-align: left;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd54{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 10.1rem;
+  margin-left: 75%;
+  text-align: left;
+}
+tr#AdminMainFrameleftfunctionchatStatistikentr6{
+
+}
+td#AdminMainFrameleftfunctionchatStatistikentd61{
+  font-size: 2rem;
+  position: absolute;
+  height: 2.5rem;
+  text-decoration: underline;
+  margin-top: 12.1rem;
+}
+tr#AdminMainFrameleftfunctionchatStatistikentr7{
+
+}
+td#AdminMainFrameleftfunctionchatStatistikentd71{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 14.9rem;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd72{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 14.9rem;
+  margin-left: 25%;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd73{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 14.9rem;
+  margin-left: 50%;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd74{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 14.9rem;
+  margin-left: 75%;
+}
+tr#AdminMainFrameleftfunctionchatStatistikentr8{
+
+}
+td#AdminMainFrameleftfunctionchatStatistikentd81{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 16.9rem;
+  text-align: left;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd82{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 16.9rem;
+  margin-left: 25%;
+  text-align: left;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd83{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 16.9rem;
+  margin-left: 50%;
+  text-align: left;
+}
+td#AdminMainFrameleftfunctionchatStatistikentd84{
+  font-size: 1.5rem;
+  width: 25%;
+  position: absolute;
+  height: 2rem;
+  margin-top: 16.9rem;
+  margin-left: 75%;
+  text-align: left;
+}
+input#inputChatlöschen{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 30%;
+  position: absolute;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 40%;
+  border: none;
+  font-size: 1.5rem;
+}
+input#inputPrivatchatlöschen{
+  background-color: lightgray;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 30%;
+  position: absolute;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 40%;
+  border: none;
+  font-size: 1.5rem;
+}
+input#inputChatlöschen:hover{
+  transition: 0.5s;
+  color: white;
+  background-color: gray;
+}
+input#inputPrivatchatlöschen:hover{
+  transition: 0.5s;
+  color: white;
+  background-color: gray;
+}
+div.style-3::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 4rem;
+	background-color: lightgray;
+}
+div.style-3::-webkit-scrollbar{
+	width: 0.5rem;
+	background-color: lightgray;
+}
+div.style-3::-webkit-scrollbar-thumb{
+  border: 0.02rem solid #696969;
+	border-radius: 4rem;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #A9A9A9;
+}
+div.style-3::-webkit-scrollbar-thumb:hover{
+  background-color: #696969;
+  cursor: pointer;
+	transition: 0.5s;
+}
+td#UserlistetdWarnung10{
+  font-size: 2rem;
+  width: 10%;
+  text-align: center;
+}
+td#UserlistetdWarnung{
+  font-size: 2rem;
+  width: 10%;
+  text-align: center;
+}
+td#UserlistetdWarnung1{
+  font-size: 2rem;
+  width: 10%;
+  text-align: center;
+  background-color: lightgreen;
+}
+td#UserlistetdWarnung2{
+  font-size: 2rem;
+  width: 10%;
+  text-align: center;
+  background-color: yellow;
+}
+td#UserlistetdWarnung3{
+  font-size: 2rem;
+  width: 10%;
+  text-align: center;
+  background-color: 	#DAA520;
+  color: white;
+}
+td#UserlistetdWarnung4{
+  font-size: 2rem;
+  width: 10%;
+  text-align: center;
+  background-color: red;
+}
+td#UserlistetdWarnung5{
+  font-size: 2rem;
+  width: 10%;
+  text-align: center;
+  background-color: 	#8B0000;
+
+}
+a#UserlistetdWarnung{
+  font-size: 2rem;
+  width: 10%;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite FilterAuflistung.php benutzt ***/
+table#SelectFilteralles{
+  width: 100%;
+
+}
+table#SelectSmilealles{
+  width: 100%;
+
+}
+tr#SelectFilteralles{
+  height: 2rem;
+  font-size: 2rem;
+}
+tr#SelectSmilealles{
+  height: 2.7rem;
+  font-size: 2rem;
+}
+td#SelectFilteralles1{
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 10%;
+  text-align: center;
+}
+td#SelectFilteralles2{
+  font-weight: bold;
+  padding-left: 0.5rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+td#SelectFilteralles3{
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  text-align: center;
+  width: 25%;
+}
+td#SelectSmilealles1{
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 10%;
+  text-align: center;
+}
+td#SelectSmilealles2{
+  padding-left: 0.5rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+td#SelectSmilealles3{
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 25%;
+  text-align: center;
+}
+td#SelectSmilealles4{
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 25%;
+  text-align: center;
+}
+
+td#SelectFilteralles31deaktiviert{
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 25%;
+  text-align: center;
+  background-color: FireBrick;
+  color: white;
+}
+td#SelectFilteralles31aktiviert{
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 25%;
+  text-align: center;
+  background-color: lightgreen;
+}
+td#SelectSmilealles4deaktiviert{
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 25%;
+  text-align: center;
+  background-color: FireBrick;
+  color: white;
+}
+td#SelectSmilealles4aktiviert{
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 25%;
+  text-align: center;
+  background-color: lightgreen;
+}
+div#AdminFilterERRORdiv2{
+ position: absolute;
+ margin-top: -4.5rem;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Freunde.php & Freunschaftsanfragenbekommen.php & Freunsdschaftsanfragengeschickt.php benutzt ***/
+/** Freunde.php **/
+div.Anfrage{
+  height: 2.6rem;
+  width: 20rem;
+  padding-top: rem;
+  position: relative;
+}
+a.Anfrage{
+  font-size: 2.4rem;
+  color: black;
+  text-decoration: none;
+}
+div#Anfrage1{
+  background-color: ;
+}
+div#Anfrage2{
+  background-color: ;
+}
+input#SelectFreundschaftsanfragenbekommenNew_Chat{
+  height: 3rem;
+  width: 56%;
+  margin-left: 35%;
+  position: absolute;
+  border: none;
+  font-size: 1.6rem;
+}
+input#SelectFreundschaftsanfragenbekommenNew_Chat:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div#SelectFreundschaftsanfragenbekommenNew_Chat{
+  padding-left: 0.8rem;
+  padding-top: 0.3rem;
+  height: 2.7rem;
+  margin-left: 35%;
+  width: 75%;
+  position: absolute;
+  background-color: lightgray;
+}
+div#SelectFreundschaftsanfragenbekommenNew_Chat:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+a#SelectFreundschaftsanfragenbekommenNew_Chat{
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+  height: 2.2rem;
+  width: 100%;
+}
+a#SelectFreundschaftsanfragenbekommenNew_Chat:hover{
+  color: white;
+  transition: 0.5s;
+}
+input#SelectFreundschaftsanfragenbekommenlöschen{
+  height: 3rem;
+  width: 35%;
+  position: absolute;
+  border: none;
+  font-size: 1.6rem;
+}
+input#SelectFreundschaftsanfragenbekommenlöschen:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div#SelectFreundschaftsanfragenbekommenlöschen{
+  padding-top: 0.3rem;
+  height: 2.7rem;
+  width: 35%;
+  position: absolute;
+  background-color: lightgray;
+}
+div#SelectFreundschaftsanfragenbekommenlöschen:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+a#SelectFreundschaftsanfragenbekommenlöschen{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+  height: 2.2rem;
+  width: 100%;
+}
+a#SelectFreundschaftsanfragenbekommenlöschen:hover{
+  color: white;
+  transition: 0.5s;
+}
+@keyframes example {
+  0%   {background-color: lightgreen;}
+  10%   {background-color: green; color: white;}
+  25%  {background-color: green; color: white;}
+  50%  {background-color: green; color: white;}
+  100% {background-color: lightgreen;}
+}
+a#ungeleseneNachrichten{
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  min-width: 1rem;
+  font-size: 2rem;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+  float: right;
+  border-radius: 1rem;
+  background-color: lightgreen;
+  text-decoration: blink;
+  animation-name: example;
+  animation-duration: 1.7s;
+}
+/**  **/
+
+
+/** Freunschaftsanfragenbekommen.php **/
+div.Anfrage1{
+  height: 3rem;
+  width: 20rem;
+  padding-top: 0.4rem;
+  position: relative;
+}
+a.Anfrage1{
+  font-size: 2.4rem;
+  color: black;
+  text-decoration: none;
+}
+div#Anfrage1{
+  background-color: ;
+}
+div#Anfrage2{
+  background-color: ;
+}
+input#SelectFreundschaftsanfragenbekommenannehmen{
+  height: 3rem;
+  width: 50%;
+  position: absolute;
+  border: none;
+  font-size: 1.6rem;
+}
+input#SelectFreundschaftsanfragenbekommenannehmen:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div#SelectFreundschaftsanfragenbekommenannehmen{
+  padding-top: 0.3rem;
+  height: 2.7rem;
+  width: 50%;
+  position: absolute;
+  background-color: lightgray;
+}
+div#SelectFreundschaftsanfragenbekommenannehmen:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+a#SelectFreundschaftsanfragenbekommenannehmen{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+  height: 2.2rem;
+  width: 100%;
+}
+a#SelectFreundschaftsanfragenbekommenannehmen:hover{
+  color: white;
+  transition: 0.5s;
+}
+input#SelectFreundschaftsanfragenbekommenablehnen{
+  height: 3rem;
+  width: 50%;
+  margin-left: 50%;
+  position: absolute;
+  border: none;
+  font-size: 1.6rem;
+}
+input#SelectFreundschaftsanfragenbekommenablehnen:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div#SelectFreundschaftsanfragenbekommenablehnen{
+  padding-top: 0.3rem;
+  height: 2.7rem;
+  margin-left: 50%;
+  width: 50%;
+  position: absolute;
+  background-color: lightgray;
+}
+div#SelectFreundschaftsanfragenbekommenablehnen:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+a#SelectFreundschaftsanfragenbekommenablehnen{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+  height: 2.2rem;
+  width: 100%;
+}
+a#SelectFreundschaftsanfragenbekommenablehnen:hover{
+  color: white;
+  transition: 0.5s;
+}
+/**  **/
+
+
+/** Freunsdschaftsanfragengeschickt.php **/
+div.Anfrage2{
+  height: 3rem;
+  width: 20rem;
+  padding-top: 0.4rem;
+  position: relative;
+}
+a.Anfrage2{
+  font-size: 2.4rem;
+  color: black;
+  text-decoration: none;
+}
+div#Anfrage1{
+  background-color: ;
+}
+div#Anfrage2{
+  background-color: ;
+}
+input#SelectFreundschaftsanfragenbekommenzurückziehen{
+  height: 3rem;
+  width: 50%;
+  position: absolute;
+  border: none;
+  font-size: 1.6rem;
+}
+input#SelectFreundschaftsanfragenbekommenzurückziehen:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div#SelectFreundschaftsanfragenbekommenzurückziehen{
+  padding-top: 0.4rem;
+  height: 2.7rem;
+  width: 50%;
+  position: absolute;
+  background-color: lightgray;
+}
+div#SelectFreundschaftsanfragenbekommenzurückziehen:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+a#SelectFreundschaftsanfragenbekommenzurückziehen{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 1.8rem;
+  display: block;
+  height: 2.2rem;
+  width: 100%;
+}
+a#SelectFreundschaftsanfragenbekommenzurückziehen:hover{
+  color: white;
+  transition: 0.5s;
+}
+/**  **/
+
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Index.php benutzt ***/
+/** Chat **/
+div#chatMain{
+  height: 94.7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+}
+textarea#chatfeld{
+  padding: 0.3rem;
+  margin-top: 1.6rem;
+  height: 5rem;
+  width: 88.4rem;
+  position: absolute;
+  border: none;
+  font-size: 1.5rem;
+  resize: none;
+  overflow: auto;
+}
+input#chatfeld{
+  margin-top: 1.6rem;
+  height: 5rem;
+  width: 88.4rem;
+  position: absolute;
+  border: none;
+  font-size: 1.5rem;
+  resize: none;
+  overflow: auto;
+}
+div#chatoptionen{
+  margin-top: 1.6rem;
+  height: 5rem;
+  width: 12.4rem;
+  margin-left: 88.8rem;
+  background-color: white;
+  position: absolute;
+  border: none;
+}
+select#chatoptionenselect{
+  height: 2rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+option#chatoptionenoption{
+  height: 2rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+input#chatoptionenoption1{
+  height: 3rem;
+  width: 6.2rem;
+  border: none;
+  font-size: 1.6rem;
+  position: absolute;
+  font-weight: bold;
+}
+input#chatoptionenoption2{
+  height: 3rem;
+  width: 6.2rem;
+  margin-left: 6.2rem;
+  border: none;
+  font-size: 1.6rem;
+  position: absolute;
+  font-weight: bold;
+}
+input#chatsubmit{
+
+  font-weight: bold;
+  margin-top: 1.6rem;
+  background-color: lightgray;
+  height: 5rem;
+  margin-left: 101.6rem;
+  width: 11.4rem;
+  border: none;
+  position: absolute;
+  font-size: 1.5rem;
+}
+input#chatsubmit:hover{
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div#chat{
+  padding-top: 0.2rem;
+  width: 113rem;
+  min-width: 50rem;
+  margin-top: 6.8rem;
+  height: 88rem;
+  float: left;
+  background-color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  overflow: auto;
+}
+/** **/
+
+/** Profil **/
+div#profil{
+  width: 76rem;;
+  margin-left: 114.5rem;;
+  margin-top: 1.6rem;
+  height: 93.2rem;
+  float: left;
+  font-size: 1.5rem;
+  position: absolute;
+}
+div#profilhedder{
+  background-color: white;
+  height: 5rem;
+  width: 100%;
+  position: absolute;
+}
+input#Logout{
+  font-weight: bold;
+  background-color: lightgray;
+  margin-left: 83%;
+  height: 5rem;
+  width: 17%;
+  border: none;
+  position: absolute;
+  font-size: 1.5rem;
+}
+input#Logout:hover{
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Profil{
+  font-weight: bold;
+  background-color: lightgray;
+  margin-left: 67%;
+  height: 5rem;
+  width: 17%;
+  border: none;
+  position: absolute;
+  font-size: 1.5rem;
+}
+input#Profil:hover{
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Spiele{
+  font-weight: bold;
+  background-color: lightgray;
+  margin-left: 50%;
+  height: 5rem;
+  width: 17%;
+  border: none;
+  position: absolute;
+  font-size: 1.5rem;
+}
+input#Spiele:hover{
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Tools{
+  font-weight: bold;
+  background-color: lightgray;
+  margin-left: 33%;
+  height: 5rem;
+  width: 17%;
+  border: none;
+  position: absolute;
+  font-size: 1.5rem;
+}
+input#Tools:hover{
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Post{
+  font-weight: bold;
+  background-color: lightgray;
+  margin-left: 16%;
+  height: 5rem;
+  width: 17%;
+  border: none;
+  position: absolute;
+  font-size: 1.5rem;
+}
+input#Post:hover{
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+input#Admin{
+  font-weight: bold;
+  background-color: lightgray;
+  margin-left: 0%;
+  height: 5rem;
+  width: 16%;
+  border: none;
+  position: absolute;
+  font-size: 1.5rem;
+}
+input#Admin:hover{
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+div#profilMain{
+  background-color: white;
+  width: 100%;
+  margin-top: 5.2rem;
+  height: 88.2rem;
+}
+div#ProfilFreunde{
+  height: 88.2rem;
+  width: 20rem;
+  float: right;
+  border-left-color: black;
+  border-left-style: solid;
+  border-left-width: 0.2rem;
+}
+div#ProfilFreundeAnfragebekommen{
+  height: 19rem;
+  width: 20rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+div#ProfilFreundeAnfragebekommenhedder{
+  position: absolute;
+  height: 3rem;
+  width: 20rem;
+  background-color: SkyBlue;
+  border-bottom-color: black;
+  border-bottom-style: dashed;
+  border-bottom-width: 0.1rem;
+}
+h2#ProfilFreundeAnfragebekommenhedder{
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+div#ProfilFreundeAnfragebekommen1{
+  margin-top: 0rem;
+}
+div#ProfilFreundeAnfragegechickthedder{
+  position: absolute;
+  height: 3rem;
+  width: 20rem;
+  background-color: SkyBlue;
+  border-bottom-color: black;
+  border-bottom-style: dashed;
+  border-bottom-width: 0.1rem;
+}
+h2#ProfilFreundeAnfragegechickthedder{
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+div#ProfilFreundeAnfragegechickt1{
+  margin-top: 0rem;
+}
+div#ProfilFreundeliste{
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 0.2rem;
+  margin-top: 19rem;
+  height: 49rem;
+  width: 20rem;
+}
+div#ProfilFreundelistehedder{
+  position: absolute;
+  height: 3rem;
+  width: 20rem;
+  border-bottom-color: black;
+  border-bottom-style: dashed;
+  border-bottom-width: 0.1rem;
+  background-color: SkyBlue;
+}
+h2#ProfilFreundelistehedder{
+  text-align: center;
+  font-size: 2.4rem;
+  margin-top: 0.2rem;
+}
+div#ProfilFreundeliste1{
+  width: 20rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 46.7rem;
+  position: absolute;
+  margin-top: 0.2rem;
+  z-index: 101;
+}
+div#NewPostdiv{
+  width: 55.8rem;
+  height: 18.2rem;
+  position: absolute;
+}
+/** **/
+
+/** Privat Chat **/
+div#Privat{
+  margin-top: 18.2rem;
+  height: 70rem;
+  width: 55.8rem;
+  position: absolute;
+}
+div#PrivatChatFrame1index{
+  height: 35rem;
+  width: 27.9rem;
+  position: absolute;
+}
+div#PrivatChatFrame2index{
+  margin-left: 27.94rem;
+  height: 35rem;
+  width: 27.9rem;
+  position: absolute;
+}
+div#PrivatChatFrame3index{
+  margin-top: 35rem;
+  height: 35rem;
+  width: 27.9rem;
+  position: absolute;
+}
+div#PrivatChatFrame4index{
+  margin-top: 35rem;
+  margin-left: 27.9rem;
+  height: 35rem;
+  width: 27.9rem;
+  position: absolute;
+}
+div#PrivatChat1{
+
+}
+div#PrivatChat2{
+
+}
+div#PrivatChat3{
+
+}
+div#PrivatChat4{
+
+}
+/** **/
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Login.php benutzt ***/
+div#LoginMain{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: white;
+  height: 98.7rem;
+  box-shadow: 0rem 0rem 2rem 1rem white;
+  position: absolute;
+}
+h1#Loginh1{
+  font-size: 6rem;
+  text-align: center;
+  position: relative;
+  margin-top: 5rem;
+}
+table#LoginTable{
+  margin-top: 15rem;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+td#Logintd{
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+td#Logintd1{
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 2rem;
+}
+a#Logina{
+  font-size: 2.4rem;
+  text-align: center;
+}
+a#Loginb{
+  font-size: 1.4rem;
+  text-align: center;
+}
+a#Logina1{
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+  text-decoration: none;
+}
+input#Logintext{
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border-style: solid;
+  text-align: center;
+}
+a#LoginRegisterERROR{
+  font-size: 1.6rem;
+  text-align: center;
+  color: red;
+}
+input#Loginsubmit{
+  width: 101%;
+  height: 70%;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+input#Loginsubmit:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Post.php benutzt ***/
+div#PostMain{
+  background-color: white;
+  width: 98.72%;
+  height: 95.7rem;
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+}
+h1#ProfilMain12{
+  font-size: 5rem;
+  text-align: center;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Profil.php benutzt ***/
+input#ProfilBackButton2{
+  background-color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  height: 1.6rem;
+  border: none;
+  width: 8rem;
+  margin-left: 1rem;
+}
+input#ProfilBackButton2:hover{
+  cursor: pointer;
+}
+div#profilMain1{
+  background-color: black;
+  width: 98.72%;
+  height: 95.7rem;
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+}
+div#profilMain13{
+  background-color: white;
+  width: 49.9%;
+  height: 95.7rem;
+  position: absolute;
+}
+h1#ProfilMain13{
+  font-size: 4rem;
+  text-align: center;
+}
+img#ProfilMain13ProfilBild{
+  float: right;
+  height: 25.6rem;
+  width: 19rem;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black;
+  margin-top: 4rem;
+}
+div#profilMain12option1{
+  margin-top: 4rem;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 0.1rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1rem;
+  width: 100%;
+  height: 20rem;
+  position: absolute;
+}
+h1#ProfilMain121{
+  font-size: 5rem;
+  text-align: center;
+}
+a#profilbildbearbeitena{
+  font-size: 3rem;
+}
+input#ProfilBildaendernfile{
+  font-size: 1.5rem;
+  margin-left: 30%;
+  margin-top: 3.7rem;
+}
+input#ProfilBildaendernUpload{
+  font-size: 1.5rem;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Register.php benutzt ***/
+div#LoginMain{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: white;
+  height: 98.7rem;
+  box-shadow: 0rem 0rem 2rem 1rem white;
+  position: absolute;
+}
+h1#Loginh1{
+  font-size: 6rem;
+  text-align: center;
+  position: relative;
+  margin-top: 5rem;
+}
+table#LoginTable{
+  margin-top: 15rem;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+td#Logintd{
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+td#Logintd1{
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 2rem;
+}
+a#Logina{
+  font-size: 2.4rem;
+  text-align: center;
+}
+a#Loginb{
+  font-size: 1.4rem;
+  text-align: center;
+}
+a#Logina1{
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+  text-decoration: none;
+}
+input#Logintext{
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border-style: solid;
+  text-align: center;
+}
+a#LoginRegisterERROR{
+  font-size: 1.6rem;
+  text-align: center;
+  color: red;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Spiele.php benutzt ***/
+input#ProfilBackButton3{
+  background-color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  height: 1.6rem;
+  border: none;
+  width: 8rem;
+  margin-left: 1rem;
+}
+input#ProfilBackButton3{
+  cursor: pointer;
+}
+div#SpieleMain{
+  background-color: white;
+  width: 98.72%;
+  height: 95.7rem;
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+
+}
+h1#ProfilMain122{
+  font-size: 5rem;
+  text-align: center;
+}
+div#SpieleSeite{
+  margin-top: 1rem;
+}
+input#SpieleSeite11{
+  width: 33.333333333%;
+  height: 4rem;
+  font-size: 2.3rem;
+  background-color: lightgray;
+  border: none;
+  position: absolute;
+  font-weight: bold;
+}
+input#SpieleSeite12{
+  width: 33.333333333%;
+  height: 4rem;
+  color: white;
+  font-size: 2.6rem;
+  background-color: gray;
+  border: none;
+  position: absolute;
+  font-weight: bold;
+}
+input#SpieleSeite21{
+  width: 33.333333333%;
+  height: 4rem;
+  font-size: 2.3rem;
+  background-color: lightgray;
+  border: none;
+  position: absolute;
+  margin-left: 33.333333333%;
+  font-weight: bold;
+}
+input#SpieleSeite22{
+  width: 33.333333333%;
+  height: 4rem;
+  color: white;
+  font-size: 2.6rem;
+  background-color: gray;
+  border: none;
+  position: absolute;
+  margin-left: 33.333333333%;
+  font-weight: bold;
+}
+input#SpieleSeite31{
+  width: 33.333333333%;
+  height: 4rem;
+  font-size: 2.3rem;
+  background-color: lightgray;
+  border: none;
+  position: absolute;
+  margin-left: 66.666666666%;
+  font-weight: bold;
+}
+input#SpieleSeite32{
+  width: 33.333333333%;
+  height: 4rem;
+  color: white;
+  font-size: 2.6rem;
+  background-color: gray;
+  border: none;
+  position: absolute;
+  margin-left: 66.666666666%;
+  font-weight: bold;
+}
+input#SpieleSeite11:hover{
+  transition: 0.6s;
+  color: white;
+  font-size: 2.6rem;
+  background-color: gray;
+  cursor: pointer;
+}
+input#SpieleSeite12:hover{
+  cursor: pointer;
+}
+input#SpieleSeite21:hover{
+  transition: 0.6s;
+  color: white;
+  font-size: 2.6rem;
+  background-color: gray;
+  cursor: pointer;
+}
+input#SpieleSeite22:hover{
+  cursor: pointer;
+}
+input#SpieleSeite31:hover{
+  transition: 0.6s;
+  color: white;
+  font-size: 2.6rem;
+  background-color: gray;
+  cursor: pointer;
+}
+input#SpieleSeite32:hover{
+  cursor: pointer;
+}
+div#MainSpieleSeite{
+  margin-top: 8rem;
+  width: 100%;
+  background-color: white;
+  min-height: 81rem;
+  position: absolute;
+  overflow-y: auto;
+}
+div#Spiel11{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-radius: 2rem;
+  margin-left: 10%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel12{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-radius: 2rem;
+  margin-left: 40%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel13{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-radius: 2rem;
+  margin-left: 70%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel21{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-radius: 2rem;
+  margin-top: 20rem;
+  margin-left: 10%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel22{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-radius: 2rem;
+  margin-top: 20rem;
+  margin-left: 40%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel23{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-radius: 2rem;
+  margin-top: 20rem;
+  margin-left: 70%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel31{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-radius: 2rem;
+  margin-top: 40rem;
+  margin-left: 10%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel32{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-radius: 2rem;
+  margin-top: 40rem;
+  margin-left: 40%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel33{
+  border-radius: 2rem;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  margin-top: 40rem;
+  margin-left: 70%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel41{
+  border-radius: 2rem;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  margin-top: 60rem;
+  margin-left: 10%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel42{
+  border-radius: 2rem;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  margin-top: 60rem;
+  margin-left: 40%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel43{
+  border-radius: 2rem;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-width: 0.4rem;
+  margin-top: 60rem;
+  margin-left: 70%;
+  height: 14rem;
+  width: 20%;
+  background-color: ;
+  position: absolute;
+}
+div#Spiel11:hover{
+  transition: 1s;
+}
+div#Spiel12:hover{
+  transition: 1s;
+}
+div#Spiel13:hover{
+  transition: 1s;
+}
+div#Spiel21:hover{
+  transition: 1s;
+}
+div#Spiel22:hover{
+  transition: 1s;
+}
+div#Spiel23:hover{
+  transition: 1s;
+}
+div#Spiel31:hover{
+  transition: 1s;
+}
+div#Spiel32:hover{
+  transition: 1s;
+}
+div#Spiel33:hover{
+  transition: 1s;
+}
+div#Spiel41:hover{
+  transition: 1s;
+}
+div#Spiel42:hover{
+  transition: 1s;
+}
+div#Spiel43:hover{
+  transition: 1s;
+}
+h1#Spiele{
+  text-decoration: none;
+  color: black;
+  font-size: 2.3rem;
+  text-align: center;
+}
+div#SpieleBeschreibung{
+  text-decoration: none;
+  color: black;
+  margin-top: 0.2rem;
+  margin-left: 1%;
+  font-size: 1.4rem;
+  width: 98%;
+  height: 9.6rem;
+}
+a#SpieleLink{
+  text-decoration: none;
+  color: black;
+  border-radius: 2rem;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 14rem;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Tools.php benutzt ***/
+input#ProfilBackButton4{
+  background-color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  height: 1.6rem;
+  border: none;
+  width: 8rem;
+  margin-left: 1rem;
+}
+input#ProfilBackButton4:hover{
+  cursor: pointer;
+}
+div#ToolsMain{
+  background-color: white;
+  width: 98.72%;
+  height: 95.7rem;
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+}
+h1#ProfilMain123{
+  font-size: 5rem;
+  text-align: center;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite Userliste.php benutzt ***/
+table#Userlistetable{
+  color: black;
+  border-style: solid;
+  background-color: lightgray;
+  font-size: 2rem;
+  width: 100%;
+}
+tr#Userlistetr1{
+  height: 4rem;
+  width: 100%;
+}
+tr#Userlistetr{
+  height: 2.2rem;
+  width: 100%;
+}
+td#UserlistetdBenutzername1{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 25%;
+  text-align: center;
+}
+td#UserlistetdVorname1{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 15%;
+  text-align: center;
+}
+td#UserlistetdNachname1{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 15%;
+  text-align: center;
+}
+td#UserlistetdIPAdresse1{
+  font-size: 2rem;
+  width: 15%;
+  text-align: center;
+}
+td#UserlistetdKlasse1{
+  font-size: 2rem;
+  width: 7.5%;
+  text-align: center;
+}
+td#UserlistetdStatus1{
+  font-size: 2rem;
+  width: 7.5%;
+  text-align: center;
+}
+td#UserlistetdBenutzername{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 25%;
+}
+td#UserlistetdVorname{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 15%;
+}
+td#UserlistetdNachname{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 15%;
+}
+td#UserlistetdIPAdresse{
+  font-size: 2rem;
+  width: 15%;
+}
+td#UserlistetdKlasse{
+  font-size: 2rem;
+  width: 7.5%;
+  text-align: center;
+}
+td#UserlistetdStatus{
+  font-size: 2rem;
+  width: 7.5%;
+  text-align: center;
+}
+a#UserlistetdBenutzername{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 30%;
+}
+a#UserlistetdVorname{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 15%;
+}
+a#UserlistetdNachname{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 15%;
+}
+a#UserlistetdIPAdresse{
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  width: 15%;
+}
+a#UserlistetdKlasse{
+  font-size: 2rem;
+  width: 7.5%;
+  text-align: center;
+}
+a#UserlistetdStatus{
+  font-size: 2rem;
+  width: 7.5%;
+  text-align: center;
+}
+img#chatframenameProfilBild1{
+  position: absolute;
+  width: 7rem;
+  height: 9rem;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite UserProfil.php benutzt ***/
+input#ProfilBackButton5{
+  background-color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  height: 1.6rem;
+  border: none;
+  width: 8rem;
+  margin-left: 1rem;
+}
+input#ProfilBackButton5:hover{
+  cursor: pointer;
+}
+div#UserProfilMain{
+  background-color: white;
+  width: 98.72%;
+  height: 92.7rem;
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: absolute;
+}
+h1#ProfilMain124{
+  font-size: 5rem;
+  text-align: center;
+}
+div#UserProfil{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 84rem;
+  background-color: Gainsboro;
+  margin-top: 3rem;
+}
+div#UserProfil1{
+  width: 100%;
+  height: 50%;
+  border-bottom-color: black;
+  border-bottom-style: groove;
+  border-bottom-width: 0.2rem;
+}
+table#UserProfil{
+  margin-left: 5%;
+  margin-top: 7rem;
+  position: absolute;
+}
+tr#UserProfil{
+  height: 4rem;
+  font-size: 3.5rem;
+}
+img#UserProfil{
+  float: right;
+  height: 35rem;
+}
+td#UserProfil1{
+  width: 10%;
+}
+td#UserProfil21{
+  width: 70%;
+}
+div#UserProfil2{
+  width: 100%;
+  height: 50%;
+  background-color: ;
+}
+div#Freunsdschaftsanfragediv{
+  height: 7rem;
+  width: 26.3rem;
+  position: absolute;
+  margin-top: 35rem;
+  margin-left: 26%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+input#Freunschaftsanfragesenden{
+  background-color: lightgray;
+  width: 92%;
+  border: none;
+  height: 3rem;
+  background-color: white;
+  font-size: 1.5rem;
+}
+input#Freunschaftsanfragesenden:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+  background-color: gray;
+}
+a#Freunsdschaftsanfragea{
+height: 100%;
+width: 100%;
+font-size: 2rem;
+}
+/***  ***/
+
+
+
+/*** Diese CSS-Eigenschaften werden auf der Seite UserStatistiken.php benutzt ***/
+h6#UserStatistiken{
+  text-align: center;
+  font-size: 2rem;
+}
+/***  ***/

@@ -1,0 +1,20 @@
+@charset "utf-8";
+html { outline: 0 none;
+  }
+body {
+  background-color: black;
+  outline: 0 none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+*{
+  margin: 0; padding: 0; font-size: 62.5%; outline: 0 none;}
+div {
+  display: block;}
+
+  @media screen and (min-width: 1300px) {
+
+  }
+  @media screen and (max-width: 1300px) {
+
+  }

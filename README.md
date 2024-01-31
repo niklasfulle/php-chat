@@ -1,2 +1,2 @@
-# old-php-chat
-Alter PHP-Chat aus meiner Berufsschulzeit
+# php-chat
+Old PHP chat from my vocational school days
