@@ -671,6 +671,4 @@ class class_Nachrichtencheck
       return 2;
     }
   }
-
-
 }

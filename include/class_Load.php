@@ -4,9 +4,9 @@ include_once 'class_DbConfig.php';
 class class_Load
 {
   public $db;
-  /*
-  *
-  */
+  /**
+   *  Der Consturctor gibt $db eine mysqli Datenbank verbindung.
+   */
   function __construct()
   {
     $this->db = new Class_DbConfig();

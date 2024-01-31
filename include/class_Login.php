@@ -12,7 +12,6 @@ class class_Login
     $this->db = new Class_DbConfig();
   }
 
-
   function login($benutzername, $passwort){
     $ip = $this->GetIP();
     $pw = hash('sha256', $passwort);
@@ -55,5 +54,4 @@ class class_Login
 
     return $row["0"];
   }
-
 }

@@ -4,14 +4,17 @@ include_once 'class_DbConfig.php';
 class class_Freunde
 {
   public $db;
-  /*
-  *
-  */
+  /**
+   * Der Consturctor gibt $db eine mysqli Datenbank verbindung.
+   */
   function __construct()
   {
     $this->db = new Class_DbConfig();
   }
 
+  /**
+   * SelectFreunde gibt alle Freunde eines Benutzers zurück.
+   */
   function SelectFreunde($benutzername)
   {
     $SQL = "SELECT `BenutzerNameFreund` FROM `freunde` WHERE `BenutzerName` = '$benutzername' AND `Status` = 1";
@@ -22,9 +25,11 @@ class class_Freunde
     }else {
       return -1;
     }
-
   }
 
+  /**
+   * SelectFreundschaftsanfragenbekommen gibt alle Freundschaftsanfragen eines Benutzers zurück.
+   */
   function SelectFreundschaftsanfragenbekommen($benutzername)
   {
     $SQL = "SELECT `BenutzerName` FROM `freunde` WHERE `BenutzerNameFreund` = '$benutzername' AND `Status` = 0";
@@ -60,6 +65,9 @@ class class_Freunde
     }
   }
 
+  /**
+   * Anfrage_ablehnen lehnt eine Freundschaftsanfrage ab.
+   */
   function Anfrage_ablehnen($benutzername, $zulöschen)
   {
     $SQL2 = "DELETE FROM `freunde` WHERE `BenutzerName` = '$zulöschen' AND `BenutzerNameFreund` = '$benutzername'";
@@ -71,6 +79,9 @@ class class_Freunde
     }
   }
 
+  /**
+   * Anfrage_annehmen nimmt eine Freundschaftsanfrage an.
+   */
   function Anfrage_annehmen($benutzername, $freund)
   {
     $SQL1 = "UPDATE `freunde` SET `Status`= 1 WHERE `BenutzerName` = '$freund' AND `BenutzerNameFreund` = '$benutzername'";
@@ -84,6 +95,9 @@ class class_Freunde
     }
   }
 
+  /**
+   * Anfrage_löschen löscht eine Freundschaftsanfrage.
+   */
   function Anfrage_löschen($benutzername, $zulöschen)
   {
     $SQL1 = "DELETE FROM `freunde` WHERE `BenutzerName` = '$benutzername' AND `BenutzerNameFreund` = '$zulöschen'";
@@ -97,15 +111,14 @@ class class_Freunde
     }
   }
 
+  /**
+   * Anfrage_senden sendet eine Freundschaftsanfrage.
+   */
   function Anfrage_senden($benutzername, $User)
   {
-    /*$SQL = "";
-    if ($result->num_rows >= "1") {
-      return $result;
-    }*/
-    $SQL2 = "INSERT INTO `freunde` (`BenutzerName`, `BenutzerNameFreund`, `Status`) VALUES ('$benutzername', '$User', '0');";
+    $SQL = "INSERT INTO `freunde` (`BenutzerName`, `BenutzerNameFreund`, `Status`) VALUES ('$benutzername', '$User', '0');";
 
-    $result2 = $this->db->db->query($SQL2);
+    $result2 = $this->db->db->query($SQL);
 
     if ($result2) {
       return 1;
@@ -169,7 +182,5 @@ class class_Freunde
       return 2;
     }
   }
-
 }
-
 ?>

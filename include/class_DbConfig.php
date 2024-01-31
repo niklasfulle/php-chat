@@ -7,12 +7,11 @@
  {
    public $db;
    /*
-   * Der Consturct gibt $db eine mysqli Datenbank verbindung.
+   * Der Consturctor gibt $db eine mysqli Datenbank verbindung.
    */
    function __construct()
    {
      $this->db = new mysqli('localhost','root','','chat');
    }
  }
-
 ?>

@@ -55,7 +55,5 @@ class class_PrivatChat
     }else {
       return 0;
     }
-
   }
-
 }
